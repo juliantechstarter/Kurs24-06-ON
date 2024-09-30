@@ -18,20 +18,21 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 nav ul li.logo {
     flex-grow: 1;
     text-align: center;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
+    font-family: "The Billion", sans-serif; /* Schriftart für das Logo */
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
-    font-size: 1rem;
+    color: #383838;
+    font-size: 1,5rem;
     font-weight: 600;
 }
 
@@ -40,7 +41,6 @@ header {
     width: 100%;
     height: 600px; /* Banner-Höhe erhöht */
     overflow: hidden;
-    
 }
 
 .banner {
@@ -63,15 +63,14 @@ h1 {
 
 /* Bildergalerie */
 .gallery {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Maximale 4 Bilder pro Reihe */
     gap: 20px;
     margin: 40px 0;
-    flex-wrap: wrap;
 }
 
 .gallery-item {
-    width: 300px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
