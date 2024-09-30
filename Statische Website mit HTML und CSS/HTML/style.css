@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: chocolate;
+    text-align: center;
+}
+
+
+h2 {
+    color: chocolate;
+    text-align: left;
+}
+
+p {
+    font-size: 18px;
+    color: #7d7d7d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: 20%;
+}
