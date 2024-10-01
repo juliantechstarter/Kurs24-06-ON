@@ -5,6 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Hammond Biography - Jurassic Pedia</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Allgemeine Stile */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+        }
+
+        .banner-img {
+            width: 50%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .jurassic-title {
+            font-family: 'Jurassic Park', sans-serif;
+            font-size: 5rem;
+            color: white;
+            letter-spacing: 0.2em;
+            font-weight: 300;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: black;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        /* Biography Section */
+        .biography {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .hammond-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hammond-img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
+        }
+
+        .bio-title {
+            font-family: 'Jurassic Park', sans-serif;
+            font-size: 3rem;
+            color: #ffffff;
+            margin-bottom: 30px;
+        }
+
+        .bio-text {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #111;
+            color: #ffcc00;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
 </head>
 <body>
 
@@ -23,17 +125,18 @@
 
     <!-- Section: Hammond Biography -->
     <section class="biography">
-        <div class="biography-content">
-            <a href="https://jurassicpark.fandom.com/de/wiki/John_Hammond" target="_blank">
-                <img src="hammond_2.png" alt="John Hammond" class="hammond-img">
-            </a>
-            <h2 class="bio-title">Biography</h2>
-            <div class="bio-text">
-                <p>John Parker Alfred Hammond was born in 1913 in Edinburgh, Scotland. The exact date of his birth is not known. Family details are scarce, but he is known to have had at least one sibling, a sister, whose name and birth date are currently undisclosed.</p>
-                <p>During his young years in the 1920s and 1930s, Scotland faced severe economic depression. The Hammond family would have been affected by this. The late 1930s and early 1940s brought World War II to Scotland as well as the rest of the United Kingdom; as Hammond would have been in his twenties during the war, he would have been drafted into the military to fight the Nazis. His role in the war, including whether or not he saw active combat, is unknown. World War II ended on September 2, 1945, at which point Hammond would have been thirty-one or thirty-two years old.</p>
-                <p>At some point in his life, Hammond married and had a daughter. As his eldest grandchild was thirteen years old as of 1993, his daughter was probably born in the late 1950s or early 1960s. His sister, meanwhile, married into the Ludlow family and had a son, Peter, in the mid-to-late 1950s.</p>
-                <p>Hammond obtained a doctorate degree at some point from an as-of-yet-undisclosed institution. Nonetheless, he is still referred to more often as “Mr. Hammond,” despite Dr. Hammond being his correct title.</p>
-            </div>
+        <a href="https://jurassicpark.fandom.com/de/wiki/John_Hammond" target="_blank">
+            <img src="hammond_2.png" alt="John Hammond" class="hammond-img">
+        </a>
+        <h2 class="bio-title">Biography</h2>
+        <div class="bio-text">
+            <p>John Parker Alfred Hammond was born in 1913 in Edinburgh, Scotland. The exact date of his birth is not known. Family details are scarce, but he is known to have had at least one sibling, a sister, whose name and birth date are currently undisclosed.</p>
+            
+            <p>During his young years in the 1920s and 1930s, Scotland faced severe economic depression. The Hammond family would have been affected by this. The late 1930s and early 1940s brought World War II to Scotland as well as the rest of the United Kingdom; as Hammond would have been in his twenties during the war, he would have been drafted into the military to fight the Nazis. His role in the war, including whether or not he saw active combat, is unknown. World War II ended on September 2, 1945, at which point Hammond would have been thirty-one or thirty-two years old.</p>
+            
+            <p>At some point in his life, Hammond married and had a daughter. As his eldest grandchild was thirteen years old as of 1993, his daughter was probably born in the late 1950s or early 1960s. His sister, meanwhile, married into the Ludlow family and had a son, Peter, in the mid-to-late 1950s.</p>
+            
+            <p>Hammond obtained a doctorate degree at some point from an as-of-yet-undisclosed institution. Nonetheless, he is still referred to more often as “Mr. Hammond,” despite Dr. Hammond being his correct title.</p>
         </div>
     </section>
 

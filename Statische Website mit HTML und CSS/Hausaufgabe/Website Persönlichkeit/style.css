@@ -17,16 +17,17 @@ header {
 .banner-img {
     width: 50%;
     height: auto;
-    margin-bottom: 20px;
+    margin: 0 auto; /* Zentriert das Bild */
+    display: block;
 }
 
 .jurassic-title {
     font-family: 'Jurassic Park', sans-serif;
-    font-size: 5rem;
+    font-size: 5rem; /* Schriftgröße kann angepasst werden */
     color: white;
-    margin: 0;
     letter-spacing: 0.2em;
     font-weight: 300;
+    text-align: center; /* Textzentrierung */
 }
 
 nav ul {
@@ -49,57 +50,85 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Biography Section */
-.biography {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px;
-    
-}
-
-.biography-content {
+/* Introduction Section */
+.intro {
     text-align: center;
-    
+    padding: 40px;
 }
 
-.hammond-img {
-    width: 30%;
-    height: auto;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-.bio-title {
-    font-size: 2.5rem;
+.welcome-img {
+    width: 200px;
     margin-bottom: 20px;
 }
 
-.bio-text {
+.intro-text {
     max-width: 800px;
-    text-align: left;
+    margin: 0 auto; /* Zentriert den Text */
+    line-height: 1.6;
+    text-align: center; /* Text mittig ausgerichtet */
     font-size: 1.2rem;
-    line-height: 1.8;
+}
+
+/* Announcement Section */
+.announcement {
+    text-align: center;
+    padding: 40px;
+}
+
+.announcement-title {
+    font-family: 'Jurassic Park', sans-serif; /* Jurassic Park Schrift */
+    font-size: 2.5rem;
+    margin-bottom: 2px;
+    color: #ffcc00;
+}
+
+.announcement-content {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Elemente in der Mitte zentrieren */
+    gap: 20px;
+}
+
+.movie-img {
+    width: 300px;
+    height: auto;
+}
+
+.announcement-text {
+    max-width: 600px;
+    text-align: right; /* Text rechtsbündig */
+    line-height: 1.6;
+}
+
+/* Gallery Section */
+.gallery-section {
+    padding: 40px;
+    text-align: center;
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Maximale 4 Bilder pro Reihe */
-    gap: 20px;
-    margin: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery a {
+    text-decoration: none;
 }
 
 .gallery-img {
-    width: 100%;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     object-fit: cover;
-    border-radius: 0px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
 }
 
 .gallery-img:hover {
-    transform: scale(1.09);
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
 }
 
 /* Footer */
