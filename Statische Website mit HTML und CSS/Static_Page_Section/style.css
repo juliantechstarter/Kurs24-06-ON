@@ -1,0 +1,89 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    background-color: #ECF0F1;
+    text-align: center;
+}
+section h2 {
+    /* Fehler 1: Leer gelassen, daher Stil definieren */
+    color: #2C3E50; /* Farbe für Überschrift hinzugefügt */
+}
+section p {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+section img {
+    /* Fehler 2: Kein Bildstil festgelegt */
+    max-width: 100%; /* Bilder an Bildschirmbreite anpassen */
+    height: auto; /* Verhältnis beibehalten */
+}
+
+.div {
+    max-width: 600px; /* Maximalbreite des Divs */
+    margin: 0 auto; /* Zentriert das Element horizontal */
+    padding: 20px; /* Füllt den inneren Bereich */
+    background-color: #f9f9f9; /* Optionaler Hintergrund für besseren Kontrast */
+    border-radius: 10px; /* Optional: Abgerundete Ecken */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Schatteneffekt */
+}
+.div h3 {
+    color: #2C3E50;
+    margin-top: 0;
+}
+.div p {
+    color: #333;
+    margin-bottom: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #2C3E50; /* Fehler 4: Hintergrundfarbe nicht definiert */
+    color: white;
+    padding: 10px 0; /* Fehler 5: Kein Padding definiert */
+    text-align: center;
+}
+footer p {
+    margin: 0; /* Fehler 6: Margin nicht definiert */
+}
+footer a {
+    color: #ECF0F1;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline; /* Fehler 7: hover-Interaktion sinnvoll ergänzt */
+}
