@@ -1,3 +1,10 @@
+//JavaScript ist eine Programmiersprache, 
+//die hauptsächlich verwendet wird, 
+//Es ermöglicht Entwicklern, auf Ereignisse zu reagieren, 
+//Inhalte zu verändern und Animationen zu erstellen. 
+//JavaScript ist eine der Kerntechnologien des Webs neben HTML und CSS, 
+//da es clientseitige Skripte ermöglicht, die auf Benutzeraktionen reagieren.
+
 console.log("JavaScript läuft!");
 
 var alter = 25;         // var - kann neu zugewiesen werden, aber ist global oder funktions-spezifisch
