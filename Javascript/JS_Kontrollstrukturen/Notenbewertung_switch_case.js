@@ -3,7 +3,7 @@ function getGrade() {
     return Math.floor(Math.random()*6) + 1;
 }
 
-function checkGrade() {
+function checkgrade() {
     // Holt den Wert aus der Funktion getAge().
     const grade = getGrade();
     console.log("Die Note ist: " + grade); 
@@ -11,7 +11,7 @@ function checkGrade() {
     // Verwendung der switch-Anweisung zur Notenüberprüfung
     switch (true) {
         case (grade === 1):
-            console.log("Sehr gut!");
+            console.log("Gehe spazieren!");
             break;
         case (grade === 2):
             console.log("Gut!");
@@ -22,14 +22,8 @@ function checkGrade() {
         case (grade === 4):
             console.log("Ausreichend!");
             break;
-        case (grade === 5):
-            console.log("Mangelhaft!");
-            break;
-        case (grade === 6):
-            console.log("Ungenuegend!");
-            break;  
     }
 }
 
 // Funktionsaufruf
-checkGrade();
+checkgrade();
