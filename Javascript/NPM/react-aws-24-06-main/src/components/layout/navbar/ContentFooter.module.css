@@ -1,0 +1,15 @@
+/* ContentFooter.module.css */
+.content {
+    background-color: aqua;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+  }
+  
