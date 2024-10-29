@@ -1,5 +1,5 @@
 {
-  "name": "zweitesbeispiel",
+  "name": "boilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,8 +7,5 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "sillyname": "^0.1.0"
-  }
+  "description": ""
 }
