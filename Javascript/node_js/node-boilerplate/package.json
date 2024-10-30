@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
+
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "lint": "eslint index.js"
@@ -17,11 +17,11 @@
     "eslint": "^9.13.0",
     "globals": "^15.11.0"
   }
-=======
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": ""
 >>>>>>> 5c2d8ed73a182af6e0137567a8668efc056f8d5a
-}
+
